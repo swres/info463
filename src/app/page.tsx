@@ -5,10 +5,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -24,7 +20,38 @@ export default function Home() {
         <h1>Welcome to INFO 463</h1>
       </div>
 
+      <div className={styles.description}>
+      <p>This is a course website to compile resources and lab assignments for INFO 463 at the University 
+          of Washington, as taught by me (Spencer). Here, you will find links to all your lab assignments,
+          which will typically involve trying out various input devices and techniques on your own machine.
+        </p>
+      </div>
+
       <div className={styles.grid}>
+      <a
+          href="lab1"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Lab 1 <span>-&gt;</span>
+          </h2>
+          <p>Introduction</p>
+        </a>
+
+        <a
+          href="lab2"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Lab 2 <span>-&gt;</span>
+          </h2>
+          <p>???</p>
+        </a>
+
         <a
           href="lab3"
           className={styles.card}
@@ -38,42 +65,89 @@ export default function Home() {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="lab4"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            Lab 4 <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Evaluating pointing techniques</p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="lab5"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Lab 5 <span>-&gt;</span>
           </h2>
-          <p>Explore starter templates for Next.js.</p>
+          <p>Conjunctive search</p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="lab6"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+            Lab 6 <span>-&gt;</span>
           </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+          <p>Beating the Hick-Hyman law</p>
         </a>
+
+        <a
+          href="lab7"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Lab 7 <span>-&gt;</span>
+          </h2>
+          <p>Text entry</p>
+        </a>
+
+        <a
+          href="lab8"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Lab 8 <span>-&gt;</span>
+          </h2>
+          <p>A tiny display</p>
+        </a>
+
+        <a
+          href="lab9"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Lab 9 <span>-&gt;</span>
+          </h2>
+          <p>Surfaces</p>
+        </a>
+
+        <a
+          href="lab10"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Lab 10 <span>-&gt;</span>
+          </h2>
+          <p>???</p>
+        </a>
+
       </div>
     </main>
   );
