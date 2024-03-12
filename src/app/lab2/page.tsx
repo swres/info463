@@ -22,7 +22,7 @@ export default function Lab2() {
         <p>Once you've done that, answer the following questions:</p>
         <ol>
           <li>How robust is Fitt's law? That is, does it accurately predict the data you collected today?</li>
-          <li>What other letiables did you change, and how (if at all) did it affect the results of the experiment?</li>
+          <li>What other variables did you change, and how (if at all) did it affect the results of the experiment?</li>
         </ol>
         <br></br>
         <p>To conduct the experiment, set up the parameters below, then click "begin experiment." You will alternate between clicking a 
