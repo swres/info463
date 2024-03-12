@@ -8,11 +8,11 @@ import Slider from '@mui/material/Slider';
 import { mkConfig, generateCsv, download } from "export-to-csv";
 import { VictoryScatter, VictoryLine, VictoryChart, VictoryLabel, VictoryAxis } from 'victory';
 
-export default function Lab3() {
+export default function Lab2() {
   return (
     <main className={styles.main}>
       <div className={styles.card}>
-        <h2>Lab 3: Fitts' Law</h2>
+        <h2>Lab 2: Fitts' Law</h2>
         <p>In this week's lab, you will be testing out Fitts' law for yourself. Your task is to do the following:</p>
         <ol>
           <li>Set up and conduct your own Fitts' law experiment. Take note of the pattern of results you get.</li>
@@ -263,15 +263,23 @@ function Experiment() {
         return (
           <div style = {{justifyContent: 'center', width: '600px'}}>
             <br></br>
+            <Button style = {{background: "rgb(0,200,0"}}
+              onClick={() => {
+              setActive(false);
+              curTrial = 0;
+              }}
+              >
+              Reset
+            </Button>
             <div style={{display: 'inline-block', width: '100%', height: '500px', background: `rgb(${r},${g},${b})`, position: 'relative'}}>
-            <Button style = {{position: 'relative', top: '50%', left: '50%',translate: '(-50%, -50%)'}}
+            </div>
+            <Button
               onClick={() => {
                 download(csvConfig)(csv);
               }}
-            >
-          Download CSV of results
-        </Button>
-            </div>
+              >
+              Download CSV of results
+            </Button>
             <Results/>
           </div>
           )
@@ -281,14 +289,15 @@ function Experiment() {
     return (
       <div style = {{justifyContent: 'center', width: '600px'}}>
         <br></br>
-        <div style={{display: 'inline-block', width: '100%', height: '500px', background: `rgb(${r},${g},${b})`, position: 'relative'}}>
-        <Button style = {{position: 'absolute', top: '45%', left: '45%', translate: '(-50%, -50%)'}}
+        <Button style = {{background: "rgb(0,200,0"}}
           onClick={() => {
             setActive(true);
           }}
-        >
-      Begin Experiment
-    </Button>
+          >
+          Begin Experiment
+        </Button>
+        <br></br>
+        <div style={{display: 'inline-block', width: '100%', height: '500px', background: `rgb(${r},${g},${b})`, position: 'relative'}}>
         </div>
       </div>
       )}

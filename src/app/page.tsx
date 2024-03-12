@@ -49,7 +49,7 @@ export default function Home() {
           <h2>
             Lab 2 <span>-&gt;</span>
           </h2>
-          <p>???</p>
+          <p>A Fitts' law experiment</p>
         </a>
 
         <a
@@ -61,7 +61,7 @@ export default function Home() {
           <h2>
             Lab 3 <span>-&gt;</span>
           </h2>
-          <p>A Fitts' law experiment</p>
+          <p>Evaluating pointing techniques</p>
         </a>
 
         <a
@@ -73,7 +73,7 @@ export default function Home() {
           <h2>
             Lab 4 <span>-&gt;</span>
           </h2>
-          <p>Evaluating pointing techniques</p>
+          <p>Conjunctive search</p>
         </a>
 
         <a
@@ -85,7 +85,7 @@ export default function Home() {
           <h2>
             Lab 5 <span>-&gt;</span>
           </h2>
-          <p>Conjunctive search</p>
+          <p>Building a chat bot</p>
         </a>
 
         <a
@@ -97,7 +97,7 @@ export default function Home() {
           <h2>
             Lab 6 <span>-&gt;</span>
           </h2>
-          <p>Beating the Hick-Hyman law</p>
+          <p>Working with pens</p>
         </a>
 
         <a
@@ -109,7 +109,7 @@ export default function Home() {
           <h2>
             Lab 7 <span>-&gt;</span>
           </h2>
-          <p>Text entry</p>
+          <p>A tiny display</p>
         </a>
 
         <a
@@ -121,7 +121,7 @@ export default function Home() {
           <h2>
             Lab 8 <span>-&gt;</span>
           </h2>
-          <p>A tiny display</p>
+          <p>Surface input</p>
         </a>
 
         <a
@@ -133,7 +133,7 @@ export default function Home() {
           <h2>
             Lab 9 <span>-&gt;</span>
           </h2>
-          <p>Surfaces</p>
+          <p>Using your voice</p>
         </a>
 
         <a
@@ -145,7 +145,7 @@ export default function Home() {
           <h2>
             Lab 10 <span>-&gt;</span>
           </h2>
-          <p>???</p>
+          <p>Reflection</p>
         </a>
 
       </div>
